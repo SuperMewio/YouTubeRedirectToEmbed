@@ -7,8 +7,8 @@ chrome.browserAction.onClicked.addListener(function (tab) {
     // Show a badge with a "no entry" symbol
     chrome.browserAction.setBadgeText({ text: "🚫" });
 
-    // Set the badge background color to red
-    chrome.browserAction.setBadgeBackgroundColor({ color: [255, 0, 0, 0] }); // Red background
+    // Set the badge background color to white
+    chrome.browserAction.setBadgeBackgroundColor({ color: [255, 255, 255, 255] }); // Red background
 
     // Clear the badge after a few seconds (adjust as needed)
     setTimeout(function () {
